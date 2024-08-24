@@ -1,0 +1,41 @@
+.intro{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 90vh;
+}
+.intro-content{
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    padding: 20px;
+   
+    color: black;
+    text-align: left;
+}
+
+
+@media (max-width: 768px) {
+    .intro-content {
+      flex-basis: 100%; /* Stack the divs vertically on smaller screens */
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animated-text {
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  .intro-verbal{
+    padding-left: 5%;
+    padding-top: 10%;
+  }

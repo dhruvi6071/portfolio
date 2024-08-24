@@ -1,0 +1,18 @@
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 8%;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+li{
+    display: inline;
+    float: right;
+    margin:auto;
+    margin: 0 1.5%;
+}
+
+#home{
+    float:inline-start;    
+}
