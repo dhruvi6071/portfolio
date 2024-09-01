@@ -5,6 +5,7 @@ import {SkillMain} from './components/Skills/SkillMain';
 import { Skills } from './data.js';
 import { Tools } from './data.js';
 import Main from './components/Projects/Main.js';
+import Verbal from './components/Education/Verbal.js';
 
 function ToolItem({ image,title, description }) {
   return (
@@ -38,6 +39,7 @@ function App() {
           </ul>
         </section> */}
         <Main></Main>
+        <Verbal />
     </div>
   );
 }
