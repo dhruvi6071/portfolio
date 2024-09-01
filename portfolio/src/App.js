@@ -38,8 +38,9 @@ function App() {
             ))}
           </ul>
         </section> */}
-        <Main></Main>
+     
         <Verbal />
+        <Main></Main>
     </div>
   );
 }
